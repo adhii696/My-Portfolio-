@@ -372,10 +372,13 @@ font-size: 4rem;
   margin-top: 40px;
   font-size: 16px;
 }
-@media (max-width: 1285px) {
+@media (max-width: 895px) {
   #menu-icon{
     display: block;
   } 
+  .header .gradient-button {
+    display: none;
+  }
   .navbar{
     position: absolute;
     top: 100%;
@@ -394,7 +397,6 @@ font-size: 4rem;
     color: var(--text-color);
   }
   .navbar.active{
-    display: block;
     display: block;
   }
   .gradient-btn{
